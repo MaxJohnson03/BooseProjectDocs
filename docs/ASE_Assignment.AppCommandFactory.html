@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AppCommandFactory | docfx </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AppCommandFactory | docfx ">
+      
+      <meta name="description" content="My CommandFactory which extends the original  from the BOOSE library, which allows me to replace and add my own commands.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q5N6XJHEX5"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-Q5N6XJHEX5');
+      </script>
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ApiPage">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="docfx">
+            docfx
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 class='section api' data-uid='ASE_Assignment.AppCommandFactory' data-commentid='T:ASE_Assignment.AppCommandFactory' id='ASE_Assignment_AppCommandFactory'>Class AppCommandFactory    <a class='header-action link-secondary' title='View source' href='https://github.com/ASE-Classroom/ase-boose-assignment-MaxJohnson03/blob/main/ASE Assignment/AppCommandFactory.cs#L13'><i class='bi bi-code-slash'></i></a></h1>
+ <div class="facts text-secondary">
+<dl><dt>Namespace</dt><dd><a href='ASE_Assignment.html'>ASE_Assignment</a></dd></dl><dl><dt>Assembly</dt><dd>BOOSEproject.dll</dd></dl>
+</div><p>My CommandFactory which extends the original <span class="xref">BOOSE.CommandFactory</span> from the BOOSE library, which allows me to replace and add my own commands.</p>
+<pre><code class='lang-csharp'>public class AppCommandFactory : CommandFactory, ICommandFactory</code></pre><h4 class='section'>Inheritance</h4><dl class="typelist inheritance"><dd>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object'>object</a>
+</div>
+<div>
+CommandFactory
+</div>
+<div>
+<a href='ASE_Assignment.AppCommandFactory.html'>AppCommandFactory</a>
+</div>
+
+</dd></dl><h4 class='section'>Implements</h4><dl class="typelist"><dd>
+<div>
+ICommandFactory
+</div>
+
+</dd></dl><h4 class='section'>Inherited Members</h4><dl class="typelist"><dd>
+<div>
+CommandFactory.MakeCommand(string)
+</div>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)'>object.Equals(object?)</a>
+</div>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)'>object.Equals(object?, object?)</a>
+</div>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object.gethashcode'>object.GetHashCode()</a>
+</div>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object.gettype'>object.GetType()</a>
+</div>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone'>object.MemberwiseClone()</a>
+</div>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object.referenceequals'>object.ReferenceEquals(object?, object?)</a>
+</div>
+<div>
+<a href='https://learn.microsoft.com/dotnet/api/system.object.tostring'>object.ToString()</a>
+</div>
+
+</dd></dl><h2 class='section'>Constructors</h2><h3 class='section api' data-uid='ASE_Assignment.AppCommandFactory.#ctor' data-commentid='M:ASE_Assignment.AppCommandFactory.#ctor' id='ASE_Assignment_AppCommandFactory__ctor'>AppCommandFactory()    <a class='header-action link-secondary' title='View source' href='https://github.com/ASE-Classroom/ase-boose-assignment-MaxJohnson03/blob/main/ASE Assignment/AppCommandFactory.cs#L18'><i class='bi bi-code-slash'></i></a></h3>
+ <p>Initializes a new instance of the <span class="xref">ASE_Assignment.AppCommandFactory</span> class.</p>
+<pre><code class='lang-csharp'>public AppCommandFactory()</code></pre><h2 class='section'>Methods</h2><h3 class='section api' data-uid='ASE_Assignment.AppCommandFactory.MakeCommand(System.String)' data-commentid='M:ASE_Assignment.AppCommandFactory.MakeCommand(System.String)' id='ASE_Assignment_AppCommandFactory_MakeCommand_System_String_'>MakeCommand(string)    <a class='header-action link-secondary' title='View source' href='https://github.com/ASE-Classroom/ase-boose-assignment-MaxJohnson03/blob/main/ASE Assignment/AppCommandFactory.cs#L29'><i class='bi bi-code-slash'></i></a></h3>
+ <p>Creates a command based on the command type specified.</p>
+<pre><code class='lang-csharp'>public override ICommand MakeCommand(string commandType)</code></pre><h4 class='section'>Parameters</h4><dl class='parameters'><dt><code>commandType</code> <a href='https://learn.microsoft.com/dotnet/api/system.string'>string</a>  </dt>
+<dd>
+
+
+<p>The type of the command to be created. This string is trimmed and converted to lowercase to ensure it works with the BOOSE parser..</p>
+
+</dd></dl><h4 class='section'>Returns</h4><dl class='parameters'><dt> ICommand  </dt>
+<dd>
+
+
+<p>An instance of the corresponding <span class="xref">BOOSE.ICommand</span> implementation.</p>
+
+</dd></dl><h4 class='section'>Remarks</h4><p>If the command is included in my <span class="xref">ASE_Assignment.AppCommandFactory</span>, for example the &quot;drawto&quot; command, the parser will return my <span class="xref">ASE_Assignment.AppDrawTo</span> command instead of the original one.
+For other command types, the method delegates to the original <span class="xref">BOOSE.CommandFactory</span> to create the command.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Supported by the <a href="https://dotnetfoundation.org">.NET Foundation</a>. Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
